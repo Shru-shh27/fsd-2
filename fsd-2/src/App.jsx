@@ -202,10 +202,22 @@
 
 // export default App
 
-import { Form } from "./components/Form/Form";
+// import { Form } from "./components/Form/Form";
+
+// function App(){
+//   return (
+//     <Form/>
+//   )
+// }
+
+import {StudentTable} from "./components/Table/StudentTable"
 
 function App(){
-  return (
-    <Form/>
-  )
+return(
+    <>
+    <StudentTable/>
+    </>
+)
 }
+
+export default App

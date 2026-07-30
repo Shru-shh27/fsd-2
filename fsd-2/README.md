@@ -1,18 +1,24 @@
-# React + Vite
+//lifecycle of raect component
+1.Mounting
+2.Updating
+3.Unmounting
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+// in class components -> components did mount , component will mount , componet did update , component will update , component will unmount , component did unmount
 
-Currently, two official plugins are available:
+// funtional components =>
+1.Mounting => runs only once when the components is first rendered
+2.Updating => runs whenever the specified state or prop chnages
+3.Unmounting => when the component is removed , when the component is
+removed react executes the cleanup function returened by useEffect
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+useEffect 
+=> to deal with the sideeffects;
+=>sideeffects => api calling , pushing your information in database ,  retriving the information from harddisk,
+set Interval(), setTimeout(); {all inside sideffect}
 
-## React Compiler
+3 varitions of useEffect:
+-- without any dependency
+--with dependency array
+--with dependency state
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+export , export default
