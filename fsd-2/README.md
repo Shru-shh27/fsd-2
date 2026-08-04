@@ -1,4 +1,4 @@
-//lifecycle of raect component
+<!-- //lifecycle of raect component
 1.Mounting
 2.Updating
 3.Unmounting
@@ -21,4 +21,26 @@ set Interval(), setTimeout(); {all inside sideffect}
 --with dependency array
 --with dependency state
 
-export , export default
+export , export default -->
+
+<!-- 2 types of js
+1.Common js -> by default -> app.js -> cannot use import statement . require(react)
+
+commonjs => const app = require ("express")
+modulejs => import app from "express"
+
+2.Module js -> app.mjs package.json -> type = "module" 
+
+
+export statements
+common.js => module.exports = functionName
+modulejs => export or exportdeafult
+
+import statements
+
+import => import {useState , useeffect} from react
+import React from 'react'
+
+ -->
+
+async await and then catch -->async function
