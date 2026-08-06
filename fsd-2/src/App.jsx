@@ -210,14 +210,30 @@
 //   )
 // }
 
-import {StudentTable} from "./components/Table/StudentTable"
+// import {StudentTable} from "./components/Table/StudentTable"
+
+// function App(){
+// return(
+//     <>
+//     <StudentTable/>
+//     </>
+// )
+// }
+
+// export default App
+
+
+import {StudentTable} from "./components/Filter/StudentTable"
 
 function App(){
 return(
     <>
     <StudentTable/>
+    
     </>
 )
 }
 
 export default App
+
+
