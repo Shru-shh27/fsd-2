@@ -223,12 +223,14 @@
 // export default App
 
 
-import {StudentTable} from "./components/Filter/StudentTable"
+import {Contact} from "./components/Router/Contact";
 
 function App(){
+    <Route path ="/" element ={<Home/>}
+    <rooute path ="*" eelmnet > never put at top</rooute>
 return(
     <>
-    <StudentTable/>
+   
     
     </>
 )

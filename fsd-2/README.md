@@ -44,3 +44,8 @@ import React from 'react'
  -->
 
 async await and then catch -->async function
+
+//link tag -> it prevent page to get a refresh
+->inside the react router dom
+// router dom download - global pack
+// facebook.com== facebook.com\ what is rout here 
