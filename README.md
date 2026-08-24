@@ -1,6 +1,6 @@
 # 🚀 FSD-2
 
-A Full Stack Development project built to practice and demonstrate modern web development concepts, including frontend development, backend APIs, database integration, and deployment-ready project structure.
+A Full Stack Development project built to practice and demonstrate modern web development concepts, including frontend development, backend APIs, database integration, and deployment ready project structure.
 
 ## 📌 About the Project
 
