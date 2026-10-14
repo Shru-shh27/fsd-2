@@ -16,7 +16,7 @@ The project focuses on building a complete web application by connecting a front
 * 🗄️ Database connectivity
 * 📊 Dynamic data handling
 * 🔐 Backend API structure
-* 📱 Responsive design
+* 📱 Responsive designs
 * 🧩 Modular and maintainable code structure
 
 ## 🛠️ Technologies Used
