@@ -4,7 +4,7 @@ A Full Stack Development project built to practice and demonstrate modern web de
 
 ## 📌 About the Project
 
-**FSD-2** is a full-stack web development project developed as part of my learning and practice in Full Stack Development.
+**FSD-2** is a full-stack web development projects developed as part of my learning and practice in Full Stack Development.
 
 The project focuses on building a complete web application by connecting a frontend interface with backend services and a database.
 
